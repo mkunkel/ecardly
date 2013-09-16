@@ -22,18 +22,18 @@ p {
   margin-right: 10px;
 }
 #featured {
-  width: 920px;
+  width: 918px;
   padding: 20px;
   background-image: url("../images/background_block_slice.jpg");
   background-repeat: repeat-x;
   background-color: #FFF;
   border: 1px solid #FFF;
 }
-#wrap > div > h1 {
+#featured h1, #entries h1 {
   font-size: 30px;
   margin-bottom: 5px;
 }
-#wrap > div > span {
+#featured span, #entries span {
   display: block;
   font-weight: bold;
   font-size: 12px;
@@ -46,6 +46,13 @@ p {
   width: 480px;
   /*display: inline-block;*/
   float: left;
+}
+#entries {
+  margin-top: -20px;
+  background-image: url("../images/background-inner.jpg")
+}
+#entries > article {
+  padding: 20px;
 }
 .clear {
   clear: both;
