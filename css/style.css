@@ -62,16 +62,25 @@ p {
   background-color: #a9a9a9;
   float:right;
   padding:0 0 0 2%;
+
+}
+h2{
+  font-weight: lighter;
+  font-size:20px ;
+  color:#222;
+  margin-bottom: -6px;
 }
 
 ul{
   list-style: none;
   padding: 0;
+  color: #464646;
 }
 
 li{
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 13px;
 }
 
 footer {
