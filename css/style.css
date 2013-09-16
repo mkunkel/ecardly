@@ -17,9 +17,18 @@ body {
   background-repeat: repeat-x;
   background-color: #FFF;
   padding: 20px;
+  border: 1px solid #FFF;
+}
+#wrap > div > h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+#wrap > div > span {
+  display: block;
 }
 #featured > img {
   float: right;
+  border: 1px solid #CCC;
 }
 .clear {
   clear: both;
