@@ -33,3 +33,14 @@ body {
 .clear {
   clear: both;
 }
+footer {
+  background-color: #000;
+  color:#7f7d78;
+  text-align: right;
+  width: 940px;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+
+}
