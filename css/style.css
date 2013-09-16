@@ -50,7 +50,25 @@ p {
 .clear {
   clear: both;
 }
+#menu{
+  width:23%;
+  background-color: #a9a9a9;
+  float:right;
+  padding:0 0 0 2%;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 footer {
+  clear: both;
   background-color: #000;
   color:#7f7d78;
   text-align: right;
