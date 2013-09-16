@@ -1,0 +1,26 @@
+body {
+  background-image: url("../images/background_light.jpg");
+  background-repeat: repeat-x;
+  background-color: #c4c0be;
+}
+#wrap {
+  width: 960px;
+  margin: auto;
+}
+#logo {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+#featured {
+  width: 100%;
+  background-image: url("../images/background_block_slice.jpg");
+  background-repeat: repeat-x;
+  background-color: #FFF;
+  padding: 20px;
+}
+#featured > img {
+  float: right;
+}
+.clear {
+  clear: both;
+}
