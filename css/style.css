@@ -3,6 +3,9 @@ body {
   background-repeat: repeat-x;
   background-color: #c4c0be;
 }
+a {
+  text-decoration: none;
+}
 #wrap {
   width: 960px;
   margin: auto;
@@ -12,19 +15,22 @@ body {
   margin-bottom: 12px;
 }
 #featured {
-  width: 100%;
+  width: 920px;
+  padding: 20px;
   background-image: url("../images/background_block_slice.jpg");
   background-repeat: repeat-x;
   background-color: #FFF;
-  padding: 20px;
   border: 1px solid #FFF;
 }
 #wrap > div > h1 {
   font-size: 30px;
   font-family: sans-serif;
+  margin-bottom: 5px;
 }
 #wrap > div > span {
   display: block;
+  font-weight: bold;
+  font-size: 13px;
 }
 #featured > img {
   float: right;
