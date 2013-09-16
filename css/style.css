@@ -17,6 +17,17 @@ a {
 #logo {
   margin-top: 12px;
   margin-bottom: 12px;
+  -webkit-transition: all ease-in-out .6s;
+  -moz-transition: all ease-in-out .6s;
+  -ms-transition: all ease-in-out .6s;
+  -o-transition: all ease-in-out .6s;
+  transition: all ease-in-out .6s;
+}
+#logo:hover {
+  transform:rotate(-360deg) scale(1.13);
+  -ms-transform:rotate(-360deg) scale(1.13);
+  -webkit-transform:rotate(-360deg) scale(1.13);
+  margin-left: 50px;
 }
 p {
   font-size: 11px;
@@ -87,9 +98,10 @@ h2, ul{
 ul{
   list-style: none;
   padding: 0;
+}
+li, li > a {
   color: #575757;
 }
-
 li{
   padding-top: 6px;
   padding-bottom: 6px;
@@ -102,7 +114,7 @@ footer {
   color:#7f7d78;
   text-align: right;
   width: 940px;
-  font-size: 12px;
+  font-size: 11px;
   padding-top: 15px;
   padding-right: 20px;
   padding-bottom: 15px;
